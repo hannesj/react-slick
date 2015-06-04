@@ -52,7 +52,7 @@ var helpers = {
       return;
     }
 
-    if (this.props.fade === true || this.state.currentSlide === index) {
+    if (this.props.fade === true) {
       return;
     }
 
